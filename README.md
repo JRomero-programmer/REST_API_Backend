@@ -10,3 +10,9 @@ npm i -D typescript tsc-watch @types/bcrypt @types/cors @types/express @types/js
 This command will compile the code. Once compiled, it starts the code automatically.
 npm run dev
 
+
+When we are deploying our code we will execute these two commands in this order:
+
+npm run build -> To compile our typescript code to javascript
+
+npm run start -> To run our project
