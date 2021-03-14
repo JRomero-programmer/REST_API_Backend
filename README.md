@@ -6,7 +6,7 @@ Command: npm i
 
 Development dependencies used:
 npm i -D typescript tsc-watch @types/bcrypt @types/cors @types/express @types/jsonwebtoken @types/mongoose @types/morgan @types/passport @types/passport-jwt
-npm i -D nodemon
 
-
+This command will compile the code. Once compiled, it starts the code automatically.
+npm run dev
 
